@@ -1,139 +1,101 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Veil-Inspired Landing Page</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Meine Apple-ähnliche Seite</title>
   <style>
     * {
       margin: 0;
       padding: 0;
       box-sizing: border-box;
-      font-family: 'Helvetica Neue', sans-serif;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
     }
 
     body {
-      background: #fff;
-      color: #111;
+      background-color: #fff;
+      color: #1d1d1f;
+      line-height: 1.5;
     }
 
     header {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 1.2rem 2rem;
-      position: fixed;
-      width: 100%;
-      background: #fff;
-      border-bottom: 1px solid #eee;
-      z-index: 1000;
+      background-color: #f5f5f7;
+      padding: 1rem 2rem;
+      text-align: center;
+      font-size: 0.9rem;
+      color: #6e6e73;
     }
 
-    .logo {
-      font-weight: bold;
-      font-size: 1.2rem;
-      letter-spacing: 1px;
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      padding: 1rem;
+      background-color: #fff;
+      border-bottom: 1px solid #ddd;
     }
 
     nav a {
-      margin-left: 1.5rem;
       text-decoration: none;
-      color: #111;
-      font-size: 0.95rem;
+      color: #1d1d1f;
+      font-weight: 500;
     }
 
     .hero {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
       text-align: center;
-      height: 100vh;
-      padding: 4rem 1rem 1rem;
-      background: url('https://images.unsplash.com/photo-1523275335684-37898b6baf30') center/cover no-repeat;
-      color: white;
+      padding: 4rem 1rem;
+      background-color: #f5f5f7;
     }
 
     .hero h1 {
       font-size: 3rem;
-      margin-bottom: 1rem;
+      font-weight: 600;
     }
 
     .hero p {
       font-size: 1.2rem;
-      max-width: 600px;
+      margin-top: 1rem;
+      color: #6e6e73;
     }
 
-    section {
-      padding: 4rem 2rem;
-      text-align: center;
-    }
-
-    section h2 {
-      font-size: 2rem;
-      margin-bottom: 1rem;
-    }
-
-    section p {
-      max-width: 600px;
-      margin: 0 auto;
-      font-size: 1rem;
-      line-height: 1.6;
+    .hero img {
+      margin-top: 2rem;
+      max-width: 100%;
+      height: auto;
     }
 
     footer {
-      background: #f8f8f8;
-      padding: 2rem;
+      background-color: #f5f5f7;
       text-align: center;
-      font-size: 0.9rem;
-      color: #777;
-    }
-
-    footer a {
-      color: #777;
-      text-decoration: none;
-      margin: 0 1rem;
+      padding: 2rem;
+      font-size: 0.8rem;
+      color: #6e6e73;
     }
   </style>
 </head>
 <body>
 
   <header>
-    <div class="logo">Veilon</div>
-    <nav>
-      <a href="#product">Product</a>
-      <a href="#story">Story</a>
-      <a href="#contact">Contact</a>
-    </nav>
+    Kostenloser Versand bei Bestellungen über 100 €
   </header>
 
-  <div class="hero">
-    <h1>Reveal Yourself</h1>
-    <p>Minimalist elegance meets modern confidence. Discover the essence of style with Veilon.</p>
-  </div>
+  <nav>
+    <a href="#">Store</a>
+    <a href="#">Mac</a>
+    <a href="#">iPhone</a>
+    <a href="#">iPad</a>
+    <a href="#">Watch</a>
+    <a href="#">Support</a>
+  </nav>
 
-  <section id="product">
-    <h2>Our Product</h2>
-    <p>Experience premium fabrics crafted for comfort and designed for expression. Every piece tells a story — yours.</p>
-  </section>
-
-  <section id="story">
-    <h2>Our Story</h2>
-    <p>Born from a love of detail and form, Veilon exists to inspire individuality and redefine modern wearability.</p>
-  </section>
-
-  <section id="contact">
-    <h2>Contact Us</h2>
-    <p>Email us at: <a href="mailto:info@example.com">info@example.com</a></p>
+  <section class="hero">
+    <h1>iPhone 15 Pro</h1>
+    <p>Ein Titan ist geboren.</p>
+    <img src="https://www.apple.com/v/iphone-15-pro/a/images/meta/iphone-15-pro_overview__f8jz7aagka2q_og.png" alt="iPhone Hero">
   </section>
 
   <footer>
-    <p>© 2025 Veilon – A Concept Brand. Not affiliated with veilonme.com.</p>
-    <div>
-      <a href="#">Instagram</a> | 
-      <a href="#">Privacy</a> | 
-      <a href="#">Terms</a>
-    </div>
+    © 2025 Mein Projekt. Nicht verbunden mit Apple Inc.
   </footer>
 
 </body>
